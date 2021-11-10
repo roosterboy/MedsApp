@@ -1,0 +1,431 @@
+[
+    {
+        "name": "Cyanide",
+        "type": "chem",
+        "description": "Cytochrome C oxidase enzyme inhibitor",
+        "treatments": ["Amyl nitrite, sodium nitrite, and sodium thiosulfate (Nithiodote) OR hydroxocobalamin (Vitamin B12a)"],
+        "dosageForm": [
+            "Amyl nitrite: 0.3mL ampules",
+            "Sodium nitrite: 300mg in 10mL vial",
+            "Sodium thiosulfate: 12.5g in 50mL vial",
+            "Hydroxocobalamin (Vitamin B12a): 5g in 250mL glass vial (20mg/mL)"
+        ],
+        "weightBasedDose": [
+            "Amyl nitrite: N/A",
+            "Sodium nitrite: 6mg/kg IV (max 300mg)",
+            "Sodium thiosulfate: 250mg/kg IV (max 12.5g)",
+            "Hydroxocobalamin (Vitamin B12a): 70mg/kg IV/IO"
+        ],
+        "administration": [
+            "Amyl nitrite, sodium nitrite, and sodium thiosulfate: Amyl nitrite 0.3mL ampule crushed into gauze and held over patient’s mouth to inhale for 15 to 30 seconds; repeat every minute until sodium nitrite administration can be performed. Must separate administrations by 30 seconds to allow for oxygenation. Each ampule will retain efficacy for approximately 3 minutes after being crushed into gauze. Sodium nitrite: ADMINISTER SODIUM NITRITE BEFORE SODIUM THIOSULFATE. Administer sodium nitrite IV, immediately followed by sodium thiosulfate IV. May give an additional half-dose of each medication if cyanide toxicity symptoms return.",
+            "Hydroxocobalamin (Vitamin B12a): 70mg/kg IV/IO as a single infusion (max dose 5 grams); may repeat dose once depending on severity of poisoning and clinical response."
+        ]
+        
+    },
+    
+    
+    {
+        "name": "Nerve Agents and Organophosphates",
+        "type": "chem",
+        "description": "Acetylcholinesterase enzyme inhibitor",
+        "treatments": ["Atropine, Pralidoxime, and benzodiazepines such as Diazepam (Valium) OR Midazolam (Versed) OR Lorazepam (Ativan)"],
+        "dosageForm": [
+            "Atropine: Injection solution: 0.4mg/0.5mL, 0.4mg/mL, 1mg/mL, 8mg/20mL; AtroPen autoinjectors: 0.25mg/0.3mL, 0.5mg/0.7mL, 1mg/0.7mL, 2mg/0.7mL; Pre-filled syringes: 0.25mg/5mL, 0.5mg/5mL, 1mg/10mL",
+            "Pralidoxime: Autoinjector: 600mg/2mL; reconstituted intravenous solution: 1g vial (reconstitute each 1g vial with 20 mL sterile water for injection to yield a 50 mg/mL solution)",
+            "Diazepam (Valium): Autoinjector (10mg/2mL), Injection solution (5mg/mL), Oral solution (1mg/mL), Oral tablet (2mg, 5mg, 10mg), Rectal gel (2.5mg, 10mg, 20mg)",
+            "Midazolam (Versed): Injection solution (2mg/2mL, 5mg/5mL, 10mg/10mL, 5mg/mL, 10mg/2mL, 25mg/5mL, 50mg/10mL), Pre-filled syringe (2mg/2mL, 4mg/2mL), Oral suspension (1mg/mL), Oral syrup (2mg/mL); IM, IV, oral, buccal, rectal, and intranasal forms exist",
+            "Lorazepam (Ativan): Injection solution (2mg/mL, 4mg/mL), Oral concentrate (2mg/mL), Oral tablet (0.5mg, 1mg, 2mg)"
+        ],
+        "weightBasedDose": [
+            "Atropine: 0.05mg/kg to 0.1mg/kg IV/IM/IO; Endotracheal dose is 2 to 3 times the IV dose",
+            "Pralidoxime: IM: 15mg/kg/dose for up to 3 doses in rapid succession (total 45mg/kg); IV: 20mg/kg to 50mg/kg (maximum 2 grams per dose)",
+            "Diazepam (Valium): 0.1mg/kg to 0.3mg/kg per dose (max doses: 2mg for neonates <30 days, 5mg per dose for children 30 days to 5 years, 10mg per dose for children >5 years old)",
+            "Midazolam (Versed): 0.2mg/kg",
+            "Lorazepam (Ativan): 0.05mg/kg to 0.1mg/kg"
+        ],
+        "administration": [
+            "Atropine: IV/IM/IO: Repeat weight-based dose every 5 to 10 minutes as needed; double the dose if previous dose does not improve symptoms. Continuous Intravenous Infusion: Give 10% to 20% of the initial loading dose required to induce atropinization as the dose per hour for continuous intravenous infusion. Endotracheal dosing: mix with 3mL of normal saline and administer, flush with additional 3mL normal saline and give five assisted manual ventilations.",
+            "Pralidoxime: IM: 15mg/kg/dose, may give up to 3 doses in rapid succession for total of 45mg/kg, may repeat this dose series after one hour if symptoms persist. IV: 20mg/kg to 50mg/kg (maximum 2 grams per dose), may repeat after one hour, then may repeat every 10 to 12 hours; for continuous infusion, given 20mg/kg to 50mg/kg loading dose followed by 10mg/kg to 20mg/kg per hour as intravenous infusion.",
+            "Diazepam (Valium): IV: Give 0.1mg/kg to 0.3mg/kg per dose slowly over 3 to 5 minutes.",
+            "Midazolam (Versed): IM: 0.2mg/kg/dose, repeat every 10 to 15 minutes, maximum dose 6mg. IV: 0.2mg/kg. Intranasal: 0.2mg/kg, divide dose between nares.",
+            "Lorazepam (Ativan): IV: Give slowly over 2 to 5 minutes; may repeat in 5 to 15 minutes if needed. May be given IM if IV route is not possible. "
+        ]
+        
+    },
+    
+    
+    {
+        "name": "Lewisite",
+        "type": "chem",
+        "description": "Organoarsenic inhibitor of pyruvate dehydrogenase enzyme",
+        "treatments": ["Dimercaprol (also known as 'British Anti-Lewisite' or 'BAL') **CONTAINS PEANUT OIL; DO NOT GIVE TO PATIENTS WHO HAVE ANAPHYLACTIC REACTIONS TO PEANUT PRODUCTS**."],
+        "dosageForm": ["BAL in Oil: 100mg/mL in 3mL ampule"],
+        "weightBasedDose": ["3mg/kg to 5mg/kg"],
+        "administration": ["3mg/kg to 5mg/kg per dose deep IM injection every 4 hours for 4 total doses."]
+        
+    },
+    
+    
+    {
+        "name": "Actinium, Americium, Berkelium, Cadmium, Californium, Cerium, Chromium, Cobalt, Curium, Einsteinium, Europium, Indium, Iridium, Lanthanum, Manganese, Neptunium, Niobium, Palladium, Plutonium, Promethium, Ruthenium, Scandium, Thorium, Yttrium, Zinc, Zirconium",
+        "type": "rad",
+        "treatments": ["Ca-DTPA (Calcium - Diethylene Triamine Penta-acetic Acid) NOTE: Zn-DTPA (Zinc - Diethylene Triamine Penta-acetic Acid) is another chelating agent that may be used, and it is the agent of choice for decorporation of these radionuclides in PREGNANT WOMEN because Ca-DTPA is a TERATOGEN. Zn-DTPA dosing is the same as Ca-DTPA."],
+        "dosageForm": ["200mg/mL in 5mL ampules"],
+        "weightBasedDose": ["14mg/kg/day"],
+        "administration": ["IV push over 3 to 4 minutes, OR diluted in 250mL of D5W/LR/NS and infused over 30 minutes, OR diluted 1:1 with sterile water or normal saline and nebulized, OR mixed with procaine and given IM; nebulization can cause reactive airway symptoms and exacerbate asthma or COPD."]
+        
+    },
+    
+    
+    {
+        "name": "Cesium, Rubidium, Thallium",
+        "type": "rad",
+        "treatments": ["Prussian Blue (Ferric Hexacyanoferrate)"],
+        "dosageForm": ["500mg capsules"],
+        "weightBasedDose": ["150mg/kg to 250mg/kg per day for children <2 years; age-based dosing for children >2 years"],
+        "administration": ["Children <2 years: Divide 150mg/kg to 250mg/kg per day into three equal doses given every 8 hours by mouth. Children 2-12 years: Give 1 gram by mouth every 8 hours."]
+        
+    },
+    
+    
+    {
+        "name": "Iodine",
+        "type": "rad",
+        "treatments": ["KI (Potassium Iodide)"],
+        "dosageForm": ["65mg and 130mg tablets (tablets can be ground into powder and dissolved; 130mg of finely ground KI tablets can be dissolved into 20mL of water and then mixed with 20mL of juice/soda/milk to yield a 16.26mg/5mL oral solution); a 65mg/mL oral solution is also available"],
+        "weightBasedDose": ["age-based dosing"],
+        "administration": ["Give once per day by mouth until risk of exposure has passed or until other measures have been successfully implemented."]
+        
+    },
+    
+    
+    {
+        "name": "Uranium",
+        "type": "rad",
+        "treatments": ["Sodium bicarbonate"],
+        "dosageForm": ["8.4% (1 mEq/mL) and 7.5% (0.892 mEq/mL) IV solutions (usually in 50mL ampules); 650mg oral tablets"],
+        "weightBasedDose": ["1 to 2 mEq/kg"],
+        "administration": ["1 to 2 mEq/kg IV bolus slowly over 1 to 2 minutes followed by infusion (1 mEq = 84mg) followed by continuous infusion; goal is urinary alkalization to pH of 8 to 9 to encourage excretion of uranium carbonates and reduce probability or acute tubular necrosis; monitor urinary pH hourly. Contraindicated in anuric patients."]
+        
+    },
+    
+    
+    {
+        "name": "Fluorine",
+        "type": "rad",
+        "treatments": ["Aluminum Hydroxide (Gel OR Solution)"],
+        "dosageForm": ["320mg per 5mL oral suspension/gel"],
+        "weightBasedDose": ["50mg/kg"],
+        "administration": ["Give 50mg/kg by mouth once to inhibit intestinal absorption and increase fecal excretion."]
+        
+    },
+    
+    
+    {
+        "name": "Strontium, Radium, Magnesium",
+        "type": "rad",
+        "treatments": ["Aluminum Hydroxide (Gel OR Solution) AND Calcium Gluconate"],
+        "dosageForm": [
+            "Aluminum Hydroxide: 320mg per 5mL oral suspension/gel",
+            "Calcium Gluconate: 10% IV solution (100mg/mL) in 10mL, 50mL, 100mL, and 200mL vials; 500mg oral tablets and capsules"
+        ],
+        "weightBasedDose": [
+            "Aluminum Hydroxide: 50 mg/kg",
+            "Calcium Gluconate: 200-500 mg/kg per day"
+        ],
+        "administration": [
+            "Aluminum Hydroxide: Give 50mg/kg by mouth once to inhibit intestinal absorption and increase fecal excretion.",
+            "Calcium Gluconate: 200-500mg/kg per day given intravenously as a continuous infusion or as four divided doses; if hypotension occurs during infusion, decrease the infusion rate."
+        ]
+        
+    },
+    
+    
+    {
+        "name": "Antimony, Arsenic, Gold, Mercury, Nickel, Polonium",
+        "type": "rad",
+        "treatments": ["Dimercaprol (also known as 'British Anti-Lewisite' or 'BAL') **CONTAINS PEANUT OIL; DO NOT GIVE TO PATIENTS WHO HAVE ANAPHYLACTIC REACTIONS TO PEANUT PRODUCTS**."],
+        "dosageForm": ["BAL in Oil: 100mg/mL in 3mL ampule"],
+        "weightBasedDose": ["3mg/kg/dose"],
+        "administration": ["3mg/kg/dose deep IM injection every 4 hours for two days, then every 6 hours on the third day, then every twelve hours on days four through ten."]
+        
+    },
+    
+    
+    {
+        "name": "Bismuth, Lead",
+        "type": "rad",
+        "treatments": ["Dimercaptosuccinic acid (Succimer)"],
+        "dosageForm": ["100mg oral capsules"],
+        "weightBasedDose": ["10mg/kg or 350mg per square meter of body surface area"],
+        "administration": ["Give by mouth every 8 hours for first five days, then every 12 hours for the next fourteen days"]
+        
+    },
+    
+    
+    {
+        "name": "Copper, Gallium",
+        "type": "rad",
+        "treatments": ["Penicillamine"],
+        "dosageForm": ["250mg oral tablets and capsules"],
+        "weightBasedDose": ["10mg/kg"],
+        "administration": ["10mg/kg by mouth every 12 hours, preferably on an empty stomach and one hour apart from other medications; patients unable to swallow pills may mix contents of capsule with fruit juice. Penicillamine is associated with significant toxicity and should never be used casually."]
+        
+    },
+    
+    
+    {
+        "name": "Phosphorus",
+        "type": "rad",
+        "treatments": ["Dipotassium phosphate"],
+        "dosageForm": ["Various intravenous and oral formulations available; children >4 years old may take one tablet supplying 250mg phosphorus per tablet by mouth every six hours. "],
+        "weightBasedDose": ["0.2 to 0.25 mmol/kg"],
+        "administration": ["Intravenous dosing is 0.2 to 0.25mmol/kg given slowly over 4 to 6 hours; children >4 years old may take one tablet supplying 250mg phosphorus per tablet by mouth every six hours. For conversion between mg and mmol, remember that the molar mass of Phosphorus is 30.97 grams, thus 30.97mg is 1mmol."]
+        
+    },
+    
+    
+    {
+        "name": "Suspected Radiation Doses > 2 Gray",
+        "type": "rad",
+        "treatments": ["Neupogen (Filgrastim)"],
+        "dosageForm": ["300mcg/mL, 300mcg/0.5mL, 480mcg/0.8mL injections"],
+        "weightBasedDose": ["10mcg/kg/day"],
+        "administration": ["Once daily subcutaneous injection; begin as soon as possible after suspected or confirmed doses greater than 2 Gray"]
+        
+    },
+    
+    
+    {
+        "name": "Anthrax (Bacillus anthracis)",
+        "type": "bio",
+        "description": "endospore-forming Gram-positive rod-shaped bacterium",
+        "treatments": [
+            "POST-EXPOSURE PROPHYLAXIS: Ciprofloxacin OR Doxycycline are preferred and FDA approved in children >1 month old.",
+            "INHALATIONAL/SYSTEMIC ANTHRAX WITH MENINGITIS: Ciprofloxacin PLUS Meropenem PLUS Linezolid is the preferred regimen in children >1 month old.",
+            "SYSTEMIC ANTHRAX IN WHICH MENINGITIS HAS BEEN RULED OUT: Ciprofloxacin PLUS Clindamycin is the recommended regimen for children >1 month old.",
+            "Monoclonal antibodies: Raxibacumab OR Obiltoxaximab (not to be used as monotherapy, must be given in conjunction with appropriate antibiotic regimen)."
+        ],
+        "dosageForm": [
+            "Clindamycin: 75mg/5mL oral solution; 75mg, 150mg, and 300mg capsules; various IV solutions",
+            "Ciprofloxacin: 500mg tablets, 250mg/5mL or 500mg/5mL oral solution; various IV solutions",
+            "Doxycycline: 100mg tablets & capsules, 25mg/5mL or 50mg/5mL oral solution are most common oral forms; 100mg IV solution",
+            "Meropenem: 500mg IV solution",
+            "Linezolid: 100mg/5mL oral solution; 600mg oral tablets; 200mg/100mL and 600mg/300mL intravenous solutions",
+            "Raxibacumab: 1700mg in 34mL vial (50mg/mL) injection solution",
+            "Obiltoxaximab: 600mg in 6mL vial (100mg/mL) injection solution"
+        ],
+        "weightBasedDose": [
+            "Clindamycin: Usual dosing is 10mg/kg to 20mg/kg per day PO (MAX DOSE 1.8 g/kg per day) OR 25mg/kg to 40mg/kg per day (MAX DOSE 2.7g/kg per day) IV in 3 to 4 divided doses",
+            "Ciprofloxacin: 15mg/kg PO q12 or 10mg/kg IV q12 (MAX DOSE: 750mg per dose by mouth, 400mg per dose IV)",
+            "Doxycycline: 2.2mg/kg",
+            "Meropenem: 40mg/kg per dose IV q8 hours (MAX DOSE: 6 grams/day); for neonates <14 days postnatal age and <2kg, give 20mg/kg/dose q12; for neonates 15-28 days postnatal age and <2kg OR <14 days and >2kg, give 20mg/kg/dose q8; for neonates 29-60 days and <2kg OR 15-60 days and >2kg, give 30mg/kg/dose q8",
+            "Linezolid: 10mg/kg/dose PO or IV q8 hours (MAX DOSE 600mg) for children <12 years;     600mg IV q12 hours for children >12 years old; for neonates <14 days postnatal age and <1kg OR neonates <7 days postnatal age and 1kg to 2kg, give 10mg/kg per dose IV q12; for neonates 15-28 days postnatal age and <1kg OR neonates 8-28 days postnatal age and >1kg, give 10mg/kg per dose IV q8",
+            "Raxibacumab: <15kg: give 80mg/kg once; 15kg to 50kg: give 60mg/kg once; >50kg: give 40mg/kg once",
+            "Obiltoxaximab: <15kg: give 32mg/kg once; 15kg to 40kg: give 24mg/kg once; >40kg: give 16mg/kg once"
+        ],
+        "administration": [
+            "Clindamycin: Orally or IV every 8 hours",
+            "Ciprofloxacin: Orally or IV every 12 hours",
+            "Doxycycline: Orally or IV every 12 hours",
+            "Meropenem: Every 8 hours (see neonatal dosing regimen changes in weight-based dose column for exceptions)",
+            "Linezolid: Orally or IV every 8 hours (see neonatal dosing regimen changes in weight-based dose column for exceptions)",
+            "Raxibacumab: Administer diphenhydramine <1 hour prior to beginning the IV infusion to reduce the risk of infusion reactions. Raxibacumab is given IV as a single (one-time only) dose.",
+            "Obiltoxaximab: Administer diphenhydramine <1 hour prior to beginning the IV infusion to reduce the risk of infusion reactions. Obiltoxaximab is given IV as a single (one-time only) dose."
+        ]
+        
+    },
+    
+    {
+        "name": "Plague (Yersinia pestis)",
+        "type": "bio",
+        "description": "Gram-negative coccobacillus facultative anaerobic bacterium",
+        "treatments": ["Ciprofloxacin OR Doxycycline OR Streptomycin OR Gentamicin (NOTE: ADD Chloramphenicol in children over age 2 with meningitis)"],
+        "dosageForm": [
+            "Ciprofloxacin: 500mg tablets, 250mg/5mL or 500mg/5mL oral solution; various IV solutions",
+            "Doxycycline: 100mg tablets & capsules, 25mg/5mL or 50mg/5mL oral solution are most common oral forms; 100mg IV solution",
+            "Streptomycin: 1 gram vial",
+            "Gentamicin: 10mg/mL and 40mg/mL injection solutions available; other intravenous solution formulations also exist"
+        ],
+        "weightBasedDose": [
+            "Ciprofloxacin: 20mg/kg PO q12 or 10mg/kg IV q12 MAX DOSE: 750mg per dose by mouth, 400mg per dose IV)",
+            "Doxycycline: 2.2mg/kg",
+            "Streptomycin: 15mg/kg",
+            "Gentamicin: Usual dosing is 2.5mg/kg per dose q8, IV or IM; for neonates <2kg and <7 days postnatal age, give 5mg/kg once every 48 hours; for neonates <2kg and 8-28 days postnatal age, give 5mg/kg once every 36 hours; for neonates >2kg but <28 days postnatal age, give 4mg/kg every 24 hours"
+        ],
+        "administration": [
+            "Ciprofloxacin: Orally or IV every 12 hours",
+            "Doxycycline: Orally or IV every 12 hours",
+            "Streptomycin: Intramuscular injection every 12 hours",
+            "Gentamicin: IV or IM injection every 8 hours if >1 month old; for neonates <2kg and <7 days postnatal age, give 5mg/kg once every 48 hours; for neonates <2kg and 8-28 days postnatal age, give 5mg/kg once every 36 hours; for neonates >2kg but <28 days postnatal age, give 4mg/kg every 24 hours"
+        ]
+        
+    },
+    
+    
+    {
+        "name": "Q Fever (Coxiella burnetii)",
+        "type": "bio",
+        "description": "obligate intracellular bacterium",
+        "treatments": ["Trimethoprim-Sulfamethoxazole OR Doxycycline (Doxycycline is preferred for children with severe illness)"],
+        "dosageForm": [
+            "Trimethoprim-Sulfamethoxazole: 200mg Sulfamethoxazole and 40mg Trimethoprim per 5mL oral solution; 400mg Sulfamethoxazole and 80mg Trimethoprim oral tablets (DS Tablets: 800mg Sulfamethoxazole and 160mg Trimethoprim); Sulfamethoxazole 80mg and Trimethoprim 16mg per mL IV solution",
+            "Doxycycline: 100mg tablets & capsules, 25mg/5mL or 50mg/5mL oral solution are most common oral forms; 100mg IV solution"
+        ],
+        "weightBasedDose": [
+            "Trimethoprim-Sulfamethoxazole: 8-12mg/kg per day of Trimethoprim",
+            "Doxycycline: 2.2mg/kg"
+        ],
+        "administration": [
+            "Trimethoprim-Sulfamethoxazole: Total daily dose can be divided into two, three, or four equal doses given orally or intravenously",
+            "Doxycycline: Orally or IV every 12 hours"
+        ]
+        
+    },
+    
+    
+    {
+        "name": "Tularemia (Francisella tularensis)",
+        "type": "bio",
+        "description": "Gram-negative coccobacillus aerobic bacterium",
+        "treatments": ["Ciprofloxacin OR Doxycycline OR Streptomycin OR Gentamicin"],
+        "dosageForm": [
+            "Ciprofloxacin: 500mg tablets, 250mg/5mL or 500mg/5mL oral solution; various IV solutions",
+            "Doxycycline: 100mg tablets & capsules, 25mg/5mL or 50mg/5mL oral solution are most common oral forms; 100mg IV solution",
+            "Streptomycin: 1 gram vial",
+            "Gentamicin: 10mg/mL and 40mg/mL injection solutions available; other intravenous solution formulations also exist"
+        ],
+        "weightBasedDose": [
+            "Ciprofloxacin: 20mg/kg PO q12 or 10mg/kg IV q12 MAX DOSE: 750mg per dose by mouth, 400mg per dose IV)",
+            "Doxycycline: 2.2mg/kg",
+            "Streptomycin: 15mg/kg",
+            "Gentamicin: Usual dosing is 2.5mg/kg per dose q8, IV or IM; for neonates <2kg and <7 days postnatal age, give 5mg/kg once every 48 hours; for neonates <2kg and 8-28 days postnatal age, give 5mg/kg once every 36 hours; for neonates >2kg but <28 days postnatal age, give 4mg/kg every 24 hours"
+        ],
+        "administration": [
+            "Ciprofloxacin: Orally or IV every 12 hours",
+            "Doxycycline: Orally or IV every 12 hours",
+            "Streptomycin: Intramuscular injection every 12 hours",
+            "Gentamicin: IV or IM injection every 8 hours if >1 month old; for neonates <2kg and <7 days postnatal age, give 5mg/kg once every 48 hours; for neonates <2kg and 8-28 days postnatal age, give 5mg/kg once every 36 hours; for neonates >2kg but <28 days postnatal age, give 4mg/kg every 24 hours"
+        ]
+        
+    },
+    
+    
+    {
+        "name": "Brucellosis (Brucella melitensis and other Brucella species)",
+        "type": "bio",
+        "description": "Gram-negative intracellular coccobacillus bacterium",
+        "treatments": [
+            "Children >8 years old with meningoencephalitis, endocarditis, or osteoarticular disease: Rifampin PLUS Doxycycline PLUS Streptomycin OR Gentamicin (substitute Trimethoprim-Sulfamethoxazole for Doxycycline in children <8 years old)",
+            "Children >8 years old without meningoencephalitis, endocarditis, or osteoarticular disease: Doxycycline PLUS Rifampin (substitute Trimethoprim-Sulfamethoxazole for Doxycycline in children <8 years old)"
+        ],
+        "dosageForm": [
+            "Rifampin: 25mg/mL oral solution, 150mg and 300mg oral capsules, 600mg reconstituted IV solution",
+            "Doxycycline: 100mg tablets & capsules, 25mg/5mL or 50mg/5mL oral solution are most common oral forms; 100mg IV solution",
+            "Streptomycin: 1 gram vial",
+            "Gentamicin: 10mg/mL and 40mg/mL injection solutions available; other intravenous solution formulations also exist",
+            "Trimethoprim-Sulfamethoxazole: 200mg Sulfamethoxazole and 40mg Trimethoprim per 5mL oral solution; 400mg Sulfamethoxazole and 80mg Trimethoprim oral tablets (DS Tablets: 800mg Sulfamethoxazole and 160mg Trimethoprim); Sulfamethoxazole 80mg and Trimethoprim 16mg per mL IV solution"
+        ],
+        "weightBasedDose": [
+            "Rifampin: 10mg/kg per dose q12 (20mg/kg per day, not to exceed 600mg per day)",
+            "Doxycycline: 2.2mg/kg",
+            "Streptomycin: 15mg/kg",
+            "Gentamicin: Usual dosing is 2.5mg/kg per dose q8, IV or IM; for neonates <2kg and <7 days postnatal age, give 5mg/kg once every 48 hours; for neonates <2kg and 8-28 days postnatal age, give 5mg/kg once every 36 hours; for neonates >2kg but <28 days postnatal age, give 4mg/kg every 24 hours",
+            "Trimethoprim-Sulfamethoxazole: 8-12mg/kg per day of Trimethoprim"
+        ],
+        "administration": [
+            "Rifampin: Orally or IV every 12 hours",
+            "Doxycycline: Orally or IV every 12 hours",
+            "Streptomycin: Intramuscular injection every 12 hours",
+            "Gentamicin: IV or IM injection every 8 hours if >1 month old; for neonates <2kg and <7 days postnatal age, give 5mg/kg once every 48 hours; for neonates <2kg and 8-28 days postnatal age, give 5mg/kg once every 36 hours; for neonates >2kg but <28 days postnatal age, give 4mg/kg every 24 hours",
+            "Trimethoprim-Sulfamethoxazole: Total daily dose can be divided into two, three, or four equal doses given orally or intravenously"
+        ]
+        
+    },
+    
+    
+    {
+        "name": "Glanders (Burkholderia mallei) and Melioidosis (Burkholderia pseudomallei)",
+        "type": "bio",
+        "description": " Gram-negative, bipolar, aerobic, motile rod-shaped bacterium",
+        "treatments": ["Ceftazidime OR Meropenem OR Imipenem"],
+        "dosageForm": [
+            "Ceftazidime: 1 gram vial",
+            "Meropenem: 500mg IV solution",
+            "Imipenem-Cilastatin: 250mg Imipenem and 250mg Cilastatin, 500mg Imipenem and 500mg Cilastatin powder for reconstitution into IV solution"
+        ],
+        "weightBasedDose": [
+            "Ceftazidime: 125-150mg/kg per day",
+            "Meropenem: 25mg/kg per dose IV q8 hours; (MAX DOSE: 1 gram q8 hours); for neonates <14 days postnatal age and <2kg, give 20mg/kg/dose q12; for neonates 15-28 days postnatal age and <2kg OR <14 days and >2kg, give 20mg/kg/dose q8",
+            "Imipenem: 25mg/kg Imipenem per dose IV q6 hours; (MAX DOSE: 1 gram q6 hours); for neonates <14 days postnatal age and <1kg OR neonates <7 days postnatal age and 1kg to 2kg, give 20mg/kg/dose q12; for neonates 15-28 days postnatal age and <1kg OR neonates 8-28 days postnatal age and 1kg to 2kg OR neonates <7 days postnatal age and >2kg, give 25mg/kg/dose q12; for neonates 8-28 days postnatal age and >2kg, give 25mg/kg/dose q8"
+        ],
+        "administration": [
+            "Ceftazidime: 125-150mg/kg/day given IV or IM every 8 hours",
+            "Meropenem: Every 8 hours; for neonates <14 days postnatal age and <2kg, give 20mg/kg/dose q12; for neonates 15-28 days postnatal age and <2kg OR <14 days and >2kg, give 20mg/kg/dose q8",
+            "Imipenem: Every 6 hours; for neonates <14 days postnatal age and <1kg OR neonates <7 days postnatal age and 1kg to 2kg, give 20mg/kg/dose q12; for neonates 15-28 days postnatal age and <1kg OR neonates 8-28 days postnatal age and 1kg to 2kg OR neonates <7 days postnatal age and >2kg, give 25mg/kg/dose q12; for neonates 8-28 days postnatal age and >2kg, give 25mg/kg/dose q8"
+        ]
+        
+    },
+    
+    
+    {
+        "name": "Smallpox (Variola virus)",
+        "type": "bio",
+        "description": "double-stranded DNA virus of the poxviridae family",
+        "treatments": ["Probenecid AND Cidofovir OR Tecovirimat (also known as ST-246 or TPOXX)"],
+        "dosageForm": [
+            "Probenecid: 500mg oral tablet",
+            "Cidofovir: 75mg/mL intravenous solution",
+            "Tecovirimat: 200mg capsule"
+        ],
+        "weightBasedDose": [
+            "Probenecid: 25mg/kg to 40mg/kg per dose 3 hours before cidofovir infusion and 10mg/kg to 20mg/kg per dose 2 to 3 hours and 8 to 9 hours after cidofovir infusion",
+            "Cidofovir: 5mg/kg IV once",
+            "Tecovirimat: Dosing recommendations for pediatric patients less than 13kg are not available. 13kg-25kg: 200mg PO twice daily for 14 days; 25kg-40kg: 400mg PO twice daily for 14 days"
+        ],
+        "administration": [
+            "Probenecid: Given by mouth three hours before cidofovir infusion, two to three hours after cidofovir infusion, and eight to nine hours after cidofovir infusion; helps to prevent nephrotoxicity associated with cidofovir",
+            "Cidofovir: GIVE PROBENECID BEFORE AND AFTER CIDOFOVIR INFUSION AS DIRECTED ABOVE; Give 20mL/kg normal saline one hour before cidofovir infusion, then given 20mL/kg normal saline over the course of one hour during cidofovir infusion, then give two hours of maintenance fluids",
+            "Tecovirimat: For pediatric patients that cannot swallow capsules, the capsules can be carefully opened and mixed in 30mL of liquid (milk, chocolate milk, applesauce, yogurt); the entire mixture should be administered within 30 minutes of preparation. This medication should be taken within 30 minutes of a full meal with moderate to high fat content."
+        ]
+        
+    },
+    
+    
+    {
+        "name": "Viral Hemorrhagic Fevers (such as Ebola, Marburg, etc.)",
+        "type": "bio",
+        "description": "RNA viruses of the families Filoviridae, Flaviviridae, Rhabdoviridae, etc.",
+        "treatments": ["Ribavirin (NOTE: Contraindicated in pregnant women and in male partners of pregnant women)"],
+        "dosageForm": [
+            "40mg/mL oral solution; 200mg, 400mg, and 600mg tablets; 200mg capsules"
+        ],
+        "weightBasedDose": [
+            "30mg/kg once, then 15mg/kg per day divided into 2 doses"
+        ],
+        "administration": [
+            "Given by mouth twice per day"
+        ]
+        
+    },
+    
+    
+    {
+        "name": "Botulism (Clostridium botulinum toxin)",
+        "type": "bio",
+        "description": "Gram-positive rod-shaped anaerobic spore-forming bacterium that produces a toxin which prevents the release of acetylcholine at the neuromuscular junction, resulting in a flaccid paralysis",
+        "treatments": ["Heptavalent Botulinum Toxoid"],
+        "dosageForm": [
+            "Each vial contains no less than: serotype A antitoxin 4500 units, serotype B antitoxin 3300 units, serotype C antitoxin 3000 units, serotype D antitoxin 600 units, serotype E antitoxin 5100 units, serotype F antitoxin 3000 units, and serotype G antitoxin 600 units"
+        ],
+        "weightBasedDose": [
+            "Children <1 year: 10% of adult dose (10% of one vial) regardless of body weight. Dosing is done by percentage of adult dose (percentage of one vial) beginning at age >1 year and weight >10kg. "
+        ],
+        "administration": [
+            "Administered intravenously at 0.01mL/kg/minute; may increase to 0.02mL/kg/minute after 30 minutes, then to maximum rate of 0.03mL/kg/minute after another 30 minutes"
+        ]
+        
+        
+    }
+    
+]

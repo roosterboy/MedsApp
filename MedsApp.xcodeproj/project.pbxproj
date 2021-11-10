@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		355D582F273B81C700310CE3 /* MedsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355D582E273B81C700310CE3 /* MedsAppApp.swift */; };
-		355D5831273B81C700310CE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355D5830273B81C700310CE3 /* ContentView.swift */; };
 		355D5833273B81C800310CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355D5832273B81C800310CE3 /* Assets.xcassets */; };
 		355D5836273B81C800310CE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355D5835273B81C800310CE3 /* Preview Assets.xcassets */; };
+		355D583E273B81EC00310CE3 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355D583D273B81EC00310CE3 /* Agent.swift */; };
+		355D5841273B822700310CE3 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355D5840273B822700310CE3 /* DataService.swift */; };
+		355D5843273B823A00310CE3 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355D5842273B823A00310CE3 /* ListView.swift */; };
+		3575F113273B82D200356541 /* Agents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3575F112273B82D200356541 /* Agents.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		355D582B273B81C700310CE3 /* MedsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		355D582E273B81C700310CE3 /* MedsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedsAppApp.swift; sourceTree = "<group>"; };
-		355D5830273B81C700310CE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		355D5832273B81C800310CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		355D5835273B81C800310CE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		355D5837273B81C800310CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355D583D273B81EC00310CE3 /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		355D5840273B822700310CE3 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		355D5842273B823A00310CE3 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		3575F112273B82D200356541 /* Agents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Agents.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				355D582E273B81C700310CE3 /* MedsAppApp.swift */,
-				355D5830273B81C700310CE3 /* ContentView.swift */,
+				355D583D273B81EC00310CE3 /* Agent.swift */,
 				355D5832273B81C800310CE3 /* Assets.xcassets */,
 				355D5837273B81C800310CE3 /* Info.plist */,
+				355D5840273B822700310CE3 /* DataService.swift */,
+				355D5842273B823A00310CE3 /* ListView.swift */,
+				3575F112273B82D200356541 /* Agents.json */,
 				355D5834273B81C800310CE3 /* Preview Content */,
 			);
 			path = MedsApp;
@@ -126,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3575F113273B82D200356541 /* Agents.json in Resources */,
 				355D5836273B81C800310CE3 /* Preview Assets.xcassets in Resources */,
 				355D5833273B81C800310CE3 /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				355D5831273B81C700310CE3 /* ContentView.swift in Sources */,
+				355D583E273B81EC00310CE3 /* Agent.swift in Sources */,
+				355D5843273B823A00310CE3 /* ListView.swift in Sources */,
 				355D582F273B81C700310CE3 /* MedsAppApp.swift in Sources */,
+				355D5841273B822700310CE3 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
